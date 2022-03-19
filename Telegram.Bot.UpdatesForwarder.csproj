@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFrameworks>netcoreapp3.1;net5.0;net6.0</TargetFrameworks>
+    <RootNamespace>Telegram.Bot.UpdatesForwarder</RootNamespace>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>telegram-forwarder</ToolCommandName>
+    <PackageOutputPath>./bin/nupkg</PackageOutputPath>
+    <Version>0.1</Version>
+    <Description>CLI tool to forward Telegram bot updates to a local server for development purposes. Run the tool with your bot token and the url of the service that shall receive bot updates.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
