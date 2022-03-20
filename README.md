@@ -1,3 +1,6 @@
+![Nuget](https://img.shields.io/nuget/v/Telegram.Bot.UpdatesForwarder) ![Nuget](https://img.shields.io/nuget/dt/Telegram.Bot.UpdatesForwarder)
+
+
 # Telegram Bot Updates Forwarder
 .NET Core CLI Tool to forward Telegram bot updates to a local server for development purposes. Run the tool with your bot token and the url of the service that shall receive bot updates.
 
