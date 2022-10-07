@@ -8,21 +8,21 @@
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>telegram-forwarder</ToolCommandName>
     <PackageOutputPath>./bin/nupkg</PackageOutputPath>
-    <Version>0.1.1</Version>
+    <Version>1.0.0</Version>
     <PackageProjectUrl>https://github.com/muscla87/Telegram.Bot.UpdatesForwarder</PackageProjectUrl>
     <Authors>Claudio Musumeci</Authors>
     <Title>Telegram Bot Updates Forwarder</Title>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>>https://github.com/muscla87/Telegram.Bot.UpdatesForwarder</RepositoryUrl>
     <PackageTags>Telegram Bot Updates Forwarder</PackageTags>
-    <PackageReleaseNotes>Fix README typo</PackageReleaseNotes>
+    <PackageReleaseNotes>Upgrade to Telegram.Bot v18</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Description>CLI tool to forward Telegram bot updates to a local server for development purposes. Run the tool with your bot token and the url of the service that shall receive bot updates.</Description>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="CommandLineParser" Version="2.8.0" />
-    <PackageReference Include="Telegram.Bot.Extensions.Polling" Version="1.0.0" />
+    <PackageReference Include="Telegram.Bot" Version="18.*" />
   </ItemGroup>
 
   <ItemGroup>

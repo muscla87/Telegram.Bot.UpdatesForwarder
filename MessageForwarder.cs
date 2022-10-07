@@ -6,9 +6,9 @@ using System.Net.Http.Headers;
 using Newtonsoft.Json;
 using Telegram.Bot;
 using Telegram.Bot.Exceptions;
-using Telegram.Bot.Extensions.Polling;
 using Telegram.Bot.Types;
 using System.Net.Http;
+using Telegram.Bot.Polling;
 
 namespace Telegram.Bot.UpdatesForwarder
 {
